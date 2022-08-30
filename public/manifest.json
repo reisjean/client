@@ -1,0 +1,23 @@
+{
+  "name": "boilerplate",
+  "short_name": "boilerplate",
+  "icons": [
+    {
+      "src": "./favicon/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./favicon/favicon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "background_color": "#06092B",
+  "description": "The boilerplate for creating React+Next Projects",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#06092B"
+}
