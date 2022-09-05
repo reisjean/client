@@ -1,0 +1,10 @@
+import styled from 'styled-components'
+
+interface {{pascalCase name}}Props {
+  bg?: string
+}
+
+export const Wrapper = styled.div<{{pascalCase name}}Props>`
+  background-color: ${(props) => props.bg};
+  color: red;
+`
