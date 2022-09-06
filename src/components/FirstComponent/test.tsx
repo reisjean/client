@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react'
 
-import Main from '.'
+import FirstComponent from '.'
 
-describe('<Main />', () => {
+describe('<FirstComponent />', () => {
   it('should render the head', () => {
-    const { container } = render(<Main />)
+    const { container } = render(<FirstComponent />)
 
     expect(
       screen.getByRole('heading', { name: /XPTO text/i })
@@ -14,7 +14,7 @@ describe('<Main />', () => {
   })
 
   it('should render the colors correctly', () => {
-    const { container } = render(<Main />)
+    const { container } = render(<FirstComponent />)
 
     expect(container.firstChild).toHaveStyle({
       'background-color': 'var(--backgroundColor)'
