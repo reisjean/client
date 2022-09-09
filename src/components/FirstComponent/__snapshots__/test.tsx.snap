@@ -48,7 +48,7 @@ exports[`<FirstComponent /> should render the head 1`] = `
   class="c0"
 >
   <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado."
+    alt="one day this will be a real logo, i trust this!"
     class="c1"
     src="/img/logo.png"
   />
@@ -60,7 +60,7 @@ exports[`<FirstComponent /> should render the head 1`] = `
   <h2
     class="c3"
   >
-    TypeScript, ReactJS, NextJS & Styled Components
+    TypeScript, ReactJS, NextJS, Styled Components & Jest
   </h2>
 </main>
 `;

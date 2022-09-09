@@ -9,7 +9,7 @@ interface MainProps {
 
 const FirstComponent = ({
   title = 'XPTO text',
-  description = 'TypeScript, ReactJS, NextJS & Styled Components',
+  description = 'TypeScript, ReactJS, NextJS, Styled Components & Jest',
   cPosition = 'center',
   backgroundColor = 'var(--bgDefault)'
 }: MainProps) => (
@@ -17,7 +17,7 @@ const FirstComponent = ({
     <S.Logo
       cPosition={cPosition}
       src="/img/logo.png"
-      alt="Imagem de um átomo e React Avançado escrito ao lado."
+      alt="one day this will be a real logo, i trust this!"
     />
     <S.Title>{title}</S.Title>
     <S.Description>{description}</S.Description>
